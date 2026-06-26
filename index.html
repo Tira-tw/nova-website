@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-20px); } }
+        .animate-float { animation: float 3s ease-in-out infinite; }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-100 min-h-screen">
+    <nav class="p-6 bg-gray-900 border-b border-gray-800 flex justify-center space-x-6 text-sm font-bold">
+        <a href="index.html" class="text-blue-400">首頁</a>
+        <a href="about.html" class="hover:text-blue-400">關於 Nova</a>
+        <a href="download.html" class="hover:text-blue-400">下載</a>
+        <a href="announcements.html" class="hover:text-blue-400">公告</a>
+    </nav>
+    <main class="flex flex-col items-center justify-center py-20 px-4 text-center">
+        <img src="img/20260626_141044.png" alt="Logo" class="w-48 h-48 object-contain animate-float mb-8">
+        <h1 class="text-5xl font-extrabold mb-4">Nova Launcher</h1>
+        <p class="text-gray-400 mb-8">專為競速玩家打造的現代化啟動器。</p>
+        <a href="download.html" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-bold transition-all">立即下載</a>
+    </main>
+</body>
+</html>
